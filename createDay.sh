@@ -14,3 +14,5 @@ cp ./base.cpp day_$1/$1_1.cpp
 cp ./base.cpp day_$1/$1_2.cpp
 touch day_$1/input-ex.txt
 touch day_$1/input.txt
+
+cd day_$1
