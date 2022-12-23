@@ -1,6 +1,6 @@
 BasedOnStyle: Google
 AllowShortFunctionsOnASingleLine: true
-ColumnLimit : 100 
+ColumnLimit : 64 
 IndentWidth: 4 
 AllowShortIfStatementsOnASingleLine: Always
 AllowShortBlocksOnASingleLine: true

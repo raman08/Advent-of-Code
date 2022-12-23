@@ -12,4 +12,5 @@ int main(int argc, char *argv[]) {
 
     string line;
     while (getline(file, line)) { cout << line << endl; }
+	cout << endl;
 }
