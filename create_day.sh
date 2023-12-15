@@ -28,8 +28,8 @@ fn main() {
     let path = get_file_path($day_number, is_sample);
     let contents = read_file(path);
 
-    println!("Part 1: {}", part_1(contents.lines()));
-    println!("Part 2: {}", part_2(contents.lines()));
+    println!(\"Part 1: {}\", part_1(contents.lines()));
+    println!(\"Part 2: {}\", part_2(contents.lines()));
 }" >> "$folder_name/main.rs"
 
 #creating input files
