@@ -151,7 +151,6 @@ fn part_1(lines: Lines) -> i32 {
             acc += (i as i32 + 1) * hand.bid;
             acc
         })
-    // 0
 }
 
 fn part_2(lines: Lines) -> i32 {
@@ -219,7 +218,6 @@ fn part_2(lines: Lines) -> i32 {
             acc += (i as i32 + 1) * hand.bid;
             acc
         })
-    // 0
 }
 
 fn main() {
