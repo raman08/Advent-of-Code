@@ -24,6 +24,7 @@ fn part_2(lines: Lines) -> i32 {
 }
 
 fn main() {
+    #[allow(unused_variables)]
     let is_sample = false;
     let is_sample = true;
     let path = get_file_path($day_number, is_sample);
