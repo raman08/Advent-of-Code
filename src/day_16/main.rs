@@ -308,7 +308,6 @@ fn part_2(lines: Lines) -> i32 {
             },
         });
 
-        // first time using max
         best = best.max(cloned.count_energized());
     };
 
