@@ -12,7 +12,7 @@ folder_name="src/day_$day_number"
 mkdir -p "$folder_name"
 
 # Create the main.rs file
-echo "use aoc2023::{get_file_path, read_file};
+echo "use aoc2024::{get_file_path, read_file};
 use std::str::Lines;
 
 fn part_1(lines: Lines) -> i32 {
