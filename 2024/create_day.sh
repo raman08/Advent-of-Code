@@ -12,14 +12,14 @@ folder_name="src/day_$day_number"
 mkdir -p "$folder_name"
 
 # Create the main.rs file
-echo "use aoc2024::{get_file_path, read_file};
+echo "use aoc_2024::{get_file_path, read_file};
 use std::str::Lines;
 
-fn part_1(lines: Lines) -> i32 {
+fn part_1(lines: &String) -> i32 {
     0
 }
 
-fn part_2(lines: Lines) -> i32 {
+fn part_2(lines: &String) -> i32 {
     0
 }
 
@@ -30,8 +30,8 @@ fn main() {
     let path = get_file_path($day_number, is_sample);
     let contents = read_file(path);
 
-    println!(\"Part 1: {}\", part_1(contents.lines()));
-    println!(\"Part 2: {}\", part_2(contents.lines()));
+    println!(\"Part 1: {}\", part_1(contents));
+    println!(\"Part 2: {}\", part_2(contents));
 }" >> "$folder_name/main.rs"
 
 #creating input files
