@@ -25,7 +25,7 @@ fn part_2(lines: &str) -> i32 {
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let is_sample = args.contains(&String::from("--sample"));
+    let is_sample = args.contains(&String::from(\"--sample\"));
     let path = get_file_path($day_number, is_sample);
     let contents = read_file(path);
 
