@@ -13,13 +13,12 @@ mkdir -p "$folder_name"
 
 # Create the main.rs file
 echo "use aoc_2024::{get_file_path, read_file};
-use std::str::Lines;
 
-fn part_1(lines: &String) -> i32 {
+fn part_1(lines: &str) -> i32 {
     0
 }
 
-fn part_2(lines: &String) -> i32 {
+fn part_2(lines: &str) -> i32 {
     0
 }
 
