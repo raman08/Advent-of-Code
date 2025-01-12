@@ -13,6 +13,7 @@ mkdir -p "$folder_name"
 
 # Create the main.rs file
 echo "use aoc_2024::{get_file_path, read_file};
+use std::env;
 
 fn part_1(lines: &str) -> i32 {
     0
@@ -23,9 +24,8 @@ fn part_2(lines: &str) -> i32 {
 }
 
 fn main() {
-    #[allow(unused_variables)]
-    let is_sample = false;
-    let is_sample = true;
+    let args: Vec<String> = env::args().collect();
+    let is_sample = args.contains(&String::from("--sample"));
     let path = get_file_path($day_number, is_sample);
     let contents = read_file(path);
 
