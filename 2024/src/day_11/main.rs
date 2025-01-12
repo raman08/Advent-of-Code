@@ -1,5 +1,4 @@
 use aoc_2024::{get_file_path, read_file};
-use itertools::Itertools;
 use std::{collections::HashMap, env};
 
 fn iteration(stones: &HashMap<usize, usize>) -> HashMap<usize, usize> {
